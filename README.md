@@ -1,6 +1,6 @@
 # Encryption-and-Decryption-of-data-using-server-client-system
 Security is a crucial parameter to be recognized with the improvement of
 electronic communication.
-The input is just a single data of 128 bit for the purpose of decryption & encryption and is recognized as the in dimension. This data is imitated into a state dimension which is adapted at every phase of the algorithm and later imitated to an output dimension (see figure).
-Both the plain text and key are portrayed as a 128 bit square dimension of bytes. This key is later expanded into a dimension of key schedule words (32 bits) (the w matrix). It need to be noted that the ordering of bytes within the in matrix is by column.
+The input is just a single data of 128 bit for the purpose of decryption & encryption and is recognized as the in dimension. This data is imitated into a state dimension which is adapted at every phase of the algorithm and later imitated to an output dimension.
+Both the plain text and key are portrayed as a 128 bit square dimension of bytes. This key is later expanded into a dimension of key schedule words (32 bits). It need to be noted that the ordering of bytes within the in matrix is by column.
 The algorithm initiates from Add round key process followed by total of 9 iterations of four processes and the 10th iteration of 3 processes. This is applicable for both encryption and decryption including a special case that each process of an iteration the decryption algorithm is the reverse of its corresponding process from encryption algorithm. The 10th iteration just doesn’t use the Mix Columns transformation. The decryption algorithm initiates from an Add round key process trailed by 9 iterations of decryption process which comprises of the subsequent processes
